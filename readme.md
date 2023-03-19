@@ -23,11 +23,7 @@ Create a `MovieContext` to store the current list of movies. Use the useContext 
 
 Create a reducer to update the `MovieContext` from [step 4](#step-4-context) with new search results.
 
-## Step 6: Refs
-
-Use a ref to keep track of the value of the search box, instead of state, while maintaining the current functionality of the application.
-
-## Step 7: Hooks
+## Step 6: Hooks
 
 Create a hook called `useMovieSearch` out of the movie search functionality. It should fulfill the following criteria:
 
@@ -35,13 +31,19 @@ Create a hook called `useMovieSearch` out of the movie search functionality. It 
 - It should return a function that lets you trigger a new search based on the current search query
 - It should return a variable that holds the latest search results
 
-## Step 8: useEffects
+## Step 7: useEffects
 
 Use the useEffect hook to fetch the list of movies when the search query changes.
 
+## Step 8: Refs
+
+Use a ref to keep track of the value of the search box, instead of state, while maintaining the current functionality of the application.
+
+**Functionality added in [step 7](#step-7-useeffects) does not have to be maintained.**
+
 ## Bonus:
 
-- Implement pagination
 - Use React Router to create a separate `MovieDetail` route, where the details of a single movie should be displayed.
 - Use a "loader component" to indicate when data is being fetched from the API.
+- Implement pagination
 - Use your favorite external library, like [materialize]() or [styled components]() to style the application.
