@@ -27,7 +27,14 @@ Create a hook called `useMovieSearch` out of the movie search functionality. It 
 
 Use the useEffect hook to fetch the list of movies when the search query changes.
 
-## Step 6: Context
+## Step 6: Map, filter, sort, and reduce
+
+- Use `map` to capitalize the title of all movies in the list
+- Use `filter` to only show movies released after the year 2000.
+- Use `reduce` to determine the most frequently used word in all the movie titles returned from your query. Display the result (word and frequency) in the `MovieList` component.
+- Use `sort` to sort the results by release date, from most recent to oldest
+
+Use the query `star wars` to verify your results
 
 Create a `MovieContext` to store the current list of movies. Use the useContext hook to access the context in the `MovieList` component.
 
