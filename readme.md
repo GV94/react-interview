@@ -40,13 +40,15 @@ Use the useEffect hook to fetch the list of movies when the search query changes
 
 Use the query `star wars` to verify your results
 
+## Step 7: Context
+
 Create a `MovieContext` to store the current list of movies. Use the useContext hook to access the context in the `MovieList` component.
 
 ## Step 8: Reducers
 
 Create a reducer to update the `MovieContext` from [step 8](#step-8-context) with new search results. The reducer should be part the hook from [step 4](#step-4-hooks)
 
-## Step 8: Refs
+## Step 9: Refs
 
 Use a ref to keep track of the value of the search box, instead of state.
 
