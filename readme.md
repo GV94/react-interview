@@ -9,7 +9,7 @@ Create a simple search box that allows users to enter a movie title. When the us
 
 ## Step 2: Data fetching
 
-Use the [OMDB api](https://www.omdbapi.com/) to search for movies based on the search query typed into the search box from [step 1](#step-1-state). Log the retrived list to the console.
+Add a button next to the search box that says "Search". Use the [OMDB api](https://www.omdbapi.com/) to search for movies based on the search query typed into the search box from [step 1](#step-1-state), when the user presses this button. Log the retrived list to the console.
 
 ## Step 3: Props
 
