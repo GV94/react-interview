@@ -1,7 +1,6 @@
 import "./App.css";
 
 function App() {
-  console.log(import.meta.env);
   return (
     <div className="App">
       <h1>OMDB Search 📽🍿</h1>
