@@ -13,7 +13,7 @@ Add a button next to the search box that says "Search". Use the [OMDB api](https
 
 ## Step 3: Props
 
-Create a `MovieList` component that takes a list of movies as props and displays them in a grid. Each movie should display its title, year, plot, and imdb-rating. Pass the list of movies fetched from the API in [step 2](#step-2-data-fetching) as props to the `MovieList` component.
+Create a `MovieList` component that takes a list of movies as props and displays them in a grid. Each movie should display its title, year, and poster image. Pass the list of movies fetched from the API in [step 2](#step-2-data-fetching) as props to the `MovieList` component.
 
 ## Step 4: Hooks
 
