@@ -13,7 +13,7 @@ Add a button next to the search box that says "Search". Use the [OMDB api](https
 
 ## Step 3: Props
 
-Create a `MovieList` component that takes a list of movies as props and displays them in a grid. Each movie should display its title, year, and poster image. Pass the list of movies fetched from the API in [step 2](#step-2-data-fetching) as props to the `MovieList` component.
+Create a `MovieList` component that takes a list of movies as props and displays them in a grid using css grid. Each movie should display its title, year, and poster image. Pass the list of movies fetched from the API in [step 2](#step-2-data-fetching) as props to the `MovieList` component.
 
 ## Step 4: Hooks
 
@@ -33,7 +33,7 @@ Create a `MovieContext` to store the current list of movies. Use the useContext 
 
 ## Step 7: Reducers
 
-Create a reducer to update the `MovieContext` from [step 4](#step-4-context) with new search results.
+Create a reducer to update the `MovieContext` from [step 6](#step-6-context) with new search results.
 
 ## Step 8: Refs
 
@@ -43,5 +43,3 @@ Use a ref to keep track of the value of the search box, instead of state.
 
 - Use React Router to create a separate `MovieDetail` route, where the details of a single movie should be displayed.
 - Use a "loader component" to indicate when data is being fetched from the API.
-- Implement pagination
-- Use your favorite external library, like [materialize]() or [styled components]() to style the application.
