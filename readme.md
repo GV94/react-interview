@@ -3,6 +3,8 @@
 **Problem Statement:**
 Create a simple movie search application using React that allows users to search for movies and display the results in a list. The application should use the Open Movie Database (OMDb) API to fetch movie data. The application should be implemented by following the steps below.
 
+You are free to google as much as you like, treat the test like a day at work, not an exam. AI applications like chatGPT or github co-pilot should however not be used.
+
 ## Step 1: State
 
 Create a simple search box that allows users to enter a movie title. When the user types into the search box, update the component's state to reflect the current search query.
@@ -10,6 +12,8 @@ Create a simple search box that allows users to enter a movie title. When the us
 ## Step 2: Data fetching
 
 Add a button next to the search box that says "Search". Use the [OMDB api](https://www.omdbapi.com/) to search for movies based on the search query typed into the search box from [step 1](#step-1-state), when the user presses this button. Log the retrived list to the console.
+
+- An API-key has been provided for you. You can access it by referencing `import.meta.env.VITE_OMDB_API_KEY`.
 
 ## Step 3: Props
 
