@@ -52,5 +52,4 @@ Use a ref to keep track of the value of the search box, instead of state.
 
 ## Bonus:
 
-- Use React Router to create a separate `MovieDetail` route, where the details of a single movie should be displayed.
-- Use a "loader component" to indicate when data is being fetched from the API.
+- Use React Router to create a separate `MovieDetail` route, where the details of a single movie should be fetched and displayed
